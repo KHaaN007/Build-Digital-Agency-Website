@@ -11,8 +11,8 @@
 .primary-btn {
     margin: 5px;
     padding: 15px;
-    border: 0;
-    border-radius: 3px;
+    /* border: 0; */
+    border-radius: 5px 25px;
     background: #F00C0D;
     color: aliceblue;
     font-size: 20px;
@@ -79,18 +79,32 @@ ul li a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* padding-top: 50px; */
+    height: 100vh;
+    background-image: url('../asset/image/footer-bg.png');
+    background-color: black;
     
 }
+.service-container {
+    color: #FFFFFF;
+}
 
-.service-container {}
+.service-btn {
+   color:#BECFD0; 
+}
 
-.service-btn {}
+.service-title {
+font-size: 40px;
+}
 
-.service-title {}
+.service-details {
+    font-size: 20px;
+}
 
-.service-details {}
-
-.service-list {}
+.service-list {
+    font-size: 20px;
+    margin-top: 5px;
+}
 
 .service-box-container{
 
@@ -100,18 +114,28 @@ ul li a {
     display: flex;
     align-items: center;
     text-align: center;
+    color: black;
 }
 
 .box {
-    background: #48FFFF;
+    background: #fafafa;
     margin: 10px;
-    padding: 50px 50px;
+    border-radius: 5px;
+    height: 200px;
+    width: 270px;
+    padding-top:50px;
 }
 
 .box-img {
     width: 100px;
+
 }
 
 .service-name {
     font-size: 22px;
+}
+.service-img{
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
 }
